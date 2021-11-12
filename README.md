@@ -4,4 +4,9 @@
 ---
 ## Things missing
 - [ ] Add testbench for SPICE: COMP, SENSOR, MEMCELL, MEMORY
+- [x] Make the SENSOR
+- [x] Make the COMPARATOR
+---
+## Notes
+* We made the SENSOR and COMPARATOR and tested them using the ``pixelSensor_tb.cir`` but we're not sure what the plots mean
 
