@@ -130,6 +130,15 @@ module pixelSensor_tb;
 
         #clk_period  reset=0;
 
+        #3;
+        reset = 1 #1;
+        reset = 0 #1;
+
+        reset = 1 #1;
+        reset = 0;
+
+        #55;
+
         $dumpfile("pixelSensor_tb.vcd");
         $dumpvars(0,pixelSensor_tb);
 
